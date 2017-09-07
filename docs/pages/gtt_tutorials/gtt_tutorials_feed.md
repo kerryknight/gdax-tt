@@ -167,7 +167,7 @@ THe `printTallies` function is just a bit of string-fu:
 If you've skipped ahead, or want to see the finished product, the full script resides at `/tutorials/t001_feeds.ts`.
  Execute it with
 
-    $ ts-node src/tutorials/t001_feeds.ts
+    $ ts-node tutorials/t001_feeds.ts
 
 {% include tip.html content="`ts-node` is a useful utility that compiles and runs Typescript code directly. Install it with `npm -g ts-node typescript`" %}
 

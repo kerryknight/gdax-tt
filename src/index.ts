@@ -19,3 +19,5 @@ import * as FXService from './FXService';
 import * as utils from './utils';
 import * as lib from './lib';
 export { Core, Exchanges, Factories, FXService, utils, lib };
+
+require('dotenv').config()

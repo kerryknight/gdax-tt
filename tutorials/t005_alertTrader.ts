@@ -19,6 +19,8 @@ import { GDAX_API_URL } from "gdax-trading-toolkit/build/src/exchanges/gdax/GDAX
 import { PlaceOrderMessage, TickerMessage } from "gdax-trading-toolkit/build/src/core";
 import { LiveOrder } from "gdax-trading-toolkit/build/src/lib";
 
+require('dotenv').config()
+
 const logger = GTT.utils.ConsoleLoggerFactory();
 const pusher = new GTT.utils.PushBullet(process.env.PUSHBULLET_KEY);
 const deviceID = process.env.PUSHBULLET_DEVICE_ID;
